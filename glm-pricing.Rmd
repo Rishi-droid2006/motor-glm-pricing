@@ -2,10 +2,38 @@
 title: "Motor Insurance Pricing with GLMs"
 author: "Rishi Kasera"
 date: "2026-10-16"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: show
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+library(dplyr)
+library(ggplot2)
 ```
 
+# Introduction
+
+# Data
+
+```{r load-data}
+freq <- readRDS("data/freMTPL2freq.rds")
+```
+
+# Exploratory Analysis
+
+# Data Preparation
+
+# Frequency Model
+
+# Model Selection and Diagnostics
+
+# Validation
+
+# Results
+
+# Conclusions and Limitations
